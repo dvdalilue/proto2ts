@@ -1,0 +1,38 @@
+{
+  "name": "proto-ts",
+  "version": "0.0.1",
+  "description": "Translator of gRPC .proto file to TypeScript",
+  "main": "./lib/proto2ts.js",
+  "scripts": {
+    "test": "echo \"No tests yet\" & exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvdalilue/proto2ts.git"
+  },
+  "keywords": [
+    "proto",
+    "grpc",
+    "node",
+    "peg"
+  ],
+  "author": {
+    "name": "David Lilue",
+    "email": "dvdalilue@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dvdalilue/proto2ts/issues"
+  },
+  "homepage": "https://github.com/dvdalilue/proto2ts",
+  "dependencies": {
+    "pegjs": "^0.10.0"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "bin": {
+    "proto2ts": "./lib/proto2ts.js"
+  },
+  "devDependencies": {}
+}
