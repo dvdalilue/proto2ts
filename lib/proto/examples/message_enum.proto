@@ -1,0 +1,15 @@
+enum Corpus {
+    FOO = 1;
+    BAR = 2;
+}
+
+message User {
+    bool user_id = 1;
+
+    repeated int32 hola = 2;
+
+    oneof test_oneof {
+        string name = 3;
+        repeated string other = 4;
+    }
+}
