@@ -1,5 +1,5 @@
 {
-  "name": "proto-ts",
+  "name": "proto2ts",
   "version": "0.0.1",
   "description": "Translator of gRPC .proto file to TypeScript",
   "main": "./lib/proto2ts.js",
