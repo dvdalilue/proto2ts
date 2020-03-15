@@ -1,4 +1,4 @@
-proto-ts
+proto2ts
 ========
 
 Simple `.proto` files translator into `TypeScript`.
